@@ -1,0 +1,43 @@
+
+#social{
+	background-color:#d5e9e0
+}
+
+
+
+.subheading{
+	text-align:center;
+}
+
+.titleline{
+	background-color: #577367;
+    width: 73px;
+    height: 3px;
+    margin: 0px auto;
+}
+.section{
+	padding-top:80px;
+	padding-bottom:80px;
+}
+.mt3{
+	margin-top:3em;
+}
+.form-control{
+	margin-bottom:1em;
+}
+.btn{
+	margin-top:2em
+}
+.social{
+	margin-top:1em;
+}
+.social a i{
+	color:white !important;
+	font-size: 19px;
+}
+.fa-bars{
+	color:white;
+}
+.navbar-toggler{
+	display:none
+}
