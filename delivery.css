@@ -1,0 +1,132 @@
+/* Overall CSS */
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+/* buttons */
+#button1
+{
+	margin-top: 35px;
+	padding: 9px 25px;
+	font-size: 25px;
+	color: white;
+	background-color: rgb(62, 156, 154);
+	border: none;
+	border-radius: 50px;
+	transition: all 0.5s ease 0s;
+}
+#button1:hover 
+{
+	background-color: rgba(62, 156, 154,0.6);
+	color: black;
+}
+#button2
+{        
+	margin-top: 25px;
+	font-size: 18px;
+	color: white;
+	background-color: rgb(62, 156, 154);
+	border: none;
+	border-radius: 50px;
+	transition: all 0.5s ease 0s;
+}
+#button2:hover 
+{
+	background-color: rgba(62, 156, 154,0.6);
+	color: black;
+}
+#button3
+{
+	margin-top: 35px;
+	padding: 9px 25px;
+	font-size: 25px;
+	color: white;
+	background-color: rgb(62, 156, 154);
+	border: none;
+	border-radius: 50px;
+	display: none;
+	animation-name: animationOne;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+@keyframes animationOne
+{
+	0% {margin-left: 50px;}
+	100% {margin-left: 150px; color: rgb(41, 227, 211);}
+}
+#button3:hover 
+{
+	font-size: 25px;
+	background-color: rgb(186, 222, 217);
+	color: black;
+}
+
+/* Map stuff */
+#map 
+{
+	height: 400px;
+	width: 600px;
+}
+
+/* the div elements */
+.div1
+{
+	margin: 0px 50px 50px 50px;
+	color: black;
+	text-align: center;
+}
+.div2
+{
+	margin-bottom: 50px;
+}
+.div2_2
+{
+	text-align: center;
+	padding: 25px 25px 25px 25px;
+}
+
+/* Titles */
+#mainTitle
+{
+	margin: 50px 25px 25px 25px;
+	text-align: center;
+	color: rgb(62, 156, 154);
+	font-size: 35px;
+}
+
+/* hidden and visible parts */
+#visiblePart
+{
+	display: block;
+}
+#hiddenPart
+{
+	font-weight: bold;
+	color: rgb(62, 156, 154);
+	display: none;
+}
+
+/* text box */
+#userAddress
+{
+	font-size: 20px;
+}
+#message
+{
+	color: red;
+	font-size: 15px;
+}
+#message2
+{
+	color: black;
+	text-align: justify;
+	text-align: center;
+	font-style: normal;
+	font-size: 15px;
+}
